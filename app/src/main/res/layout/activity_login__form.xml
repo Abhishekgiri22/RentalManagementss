@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_gravity="center"
+    android:background="@color/colorPurple"
+    android:layout_height="match_parent"
+    tools:context=".Login_Form">
+<TextView
+    android:text="Login Form"
+    android:textColor="@color/colorPink"
+    android:textSize="45dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:textStyle="italic"
+    android:gravity="center"
+    />
+<ImageView
+    android:layout_width="75dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:layout_height="40dp"
+    android:src="@drawable/ic_account"/>
+
+    <LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/custom_border"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.473">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:drawableStart="@drawable/ic_email"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:padding="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Password"
+                android:drawableStart="@drawable/ic_key"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+    <Button
+
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPink"
+        android:text="Login to My Account"
+        android:textAllCaps="false"
+        android:id="@+id/btnLogin"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvfirst"
+            android:layout_width="146dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="25dp"
+            android:text="Don't have account?create one for FREE."
+            android:textColor="@color/colorPink"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <Button
+            android:id="@+id/btnRegisterLink"
+            android:layout_width="172dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="200dp"
+            android:background="@drawable/custom_border"
+            android:text="Register Now"
+            android:layout_marginTop="-25dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPink"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="25dp"
+        android:textColor="@color/colorPink"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="You can Upload and search room,"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPink"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="After you logged in"/>
+
+    <TextView
+        android:id="@+id/proximityValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sensor"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>

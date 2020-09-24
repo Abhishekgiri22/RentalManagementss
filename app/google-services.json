@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "764009773666",
+    "firebase_url": "https://rentalmanagement-cbe68.firebaseio.com",
+    "project_id": "rentalmanagement-cbe68",
+    "storage_bucket": "rentalmanagement-cbe68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764009773666:android:9848dcdbea10165e08af3b",
+        "android_client_info": {
+          "package_name": "com.dee.rentalmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764009773666-c4qesu6uqlrl7ljmelui81h6fmc64vl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dee.rentalmanagement",
+            "certificate_hash": "0572739dd75b992cedf8c2e8365e1094cc3ad8ff"
+          }
+        },
+        {
+          "client_id": "764009773666-ue1ig8u6qa6oc1hrjddus812vc6ckreu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz4lBTWFOJuoOKM6W7krZ1swuWbNe3o8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764009773666-ue1ig8u6qa6oc1hrjddus812vc6ckreu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

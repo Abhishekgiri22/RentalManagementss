@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:gravity="center"
+    android:background="@color/colorPink"
+    tools:context=".ContactUsActivity">
+
+
+    <TextView
+        android:text="Contact Us / Feedback"
+        style="@style/TextViewDesign"/>
+
+    <!--    <EditText-->
+    <!--        android:hint="Enter Name"-->
+    <!--        android:id="@+id/etName"-->
+    <!--        android:drawableStart="@drawable/ic_account_circle_black_24dp"-->
+    <!--        style="@style/EditTextDesign"-->
+    <!--        android:inputType="text"/>-->
+
+    <!--    <EditText-->
+    <!--        android:hint="Enter Email"-->
+    <!--        android:id="@+id/etEmail"-->
+    <!--        android:drawableStart="@drawable/ic_email_black_24dp"-->
+    <!--        style="@style/EditTextDesign"-->
+    <!--        android:inputType="textEmailAddress"/>-->
+
+    <EditText
+        android:id="@+id/etMessage"
+        style="@style/EditTextDesign"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:drawableStart="@drawable/ic_message"
+        android:ems="10"
+        android:hint="Your Message"
+        android:textColor="@color/colorPurple"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnCSubmit"
+        android:text="Submit"
+        style="@style/ButtonDesign"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvresult"></TextView>
+
+
+</LinearLayout>

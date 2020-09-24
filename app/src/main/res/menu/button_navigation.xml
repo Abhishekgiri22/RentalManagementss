@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/HomeId"
+        android:title="Home"
+        android:icon="@drawable/ic_buy"
+        />
+    <item
+        android:id="@+id/BuyId"
+        android:title="Buy"
+        android:icon="@drawable/ic_buy"
+        />
+
+    <item
+        android:id="@+id/SellId"
+        android:icon="@drawable/ic_sell"
+        android:title="Sell"/>
+
+    <item
+        android:id="@+id/MoreId"
+        android:title="More"
+        android:icon="@drawable/ic_more"
+        />
+
+
+
+
+</menu>

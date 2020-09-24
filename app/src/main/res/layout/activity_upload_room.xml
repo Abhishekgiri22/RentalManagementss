@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/colorPurple"
+android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UploadRoomActivity">
+
+
+    <LinearLayout
+        android:id="@+id/sliderDotsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:text="Upload Available Room and details"
+            android:textColor="@color/colorPink"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgRoom"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_camera_alt_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Title"
+        android:textColor="@color/colorPink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_title"
+            android:textColor="@color/colorPink" />
+
+
+    <TextView
+        android:id="@+id/tvlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Location"
+        android:textColor="@color/colorPink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_location"
+        android:textColor="@color/colorPink" />
+
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Phone number of owner"
+        android:textColor="@color/colorPink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_phone_pink"
+        android:textColor="@color/colorPink"
+        android:drawableRight="@drawable/ic_asterick" />
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Price Per Month"
+        android:textColor="@color/colorPink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_dollar"
+        android:textColor="@color/colorPink"/>
+    <TextView
+        android:id="@+id/tvdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Other Details "
+        android:textColor="@color/colorPink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_details"
+        android:textColor="@color/colorPink" />
+
+    <Button
+        android:id="@+id/btnuploadRoom"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPink"
+        android:textColor="@color/colorPurple"
+        android:text="Upload Room">
+
+    </Button>
+</LinearLayout>

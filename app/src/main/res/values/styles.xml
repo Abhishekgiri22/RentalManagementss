@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ButtonDesign">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">#CC56B2</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="TextViewDesign">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#3E2B6F</item>
+    </style>
+    <style name="EditTextDesign">
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColorHint">#3E2B6F</item>
+    </style>
+
+
+
+</resources>

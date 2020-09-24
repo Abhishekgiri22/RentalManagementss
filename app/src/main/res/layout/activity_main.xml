@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@color/colorPurple"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Gharbeti Application"
+        android:textColor="@color/colorPink"
+android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="255dp"
+        android:src="@drawable/imgsscroped"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <Button
+            android:text="Login"
+            android:id="@+id/btnIn"
+            android:textColor="@color/colorPink"
+            android:layout_width="100dp"
+            android:background="@drawable/custom_border"/>
+
+        <Button
+            android:text="SignUP"
+            android:id="@+id/btnUp"
+            android:textColor="@color/colorPink"
+            android:layout_marginLeft="200dp"
+            android:layout_width="100dp"
+            android:background="@drawable/custom_border"/>
+
+    </GridLayout>
+
+
+
+</LinearLayout>
